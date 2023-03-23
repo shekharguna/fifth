@@ -1,6 +1,6 @@
 import { Navbar } from "flowbite-react"
 import { Link } from "react-router-dom"
-
+import image12 from "../assets/logosample.png"
 
 export default function Navbar1(){
     return(
@@ -14,31 +14,31 @@ export default function Navbar1(){
     to="/navbars"
   >
     <img
-      src="https://s3-eu-west-1.amazonaws.com/ie.smooth.careers-logo/ErnPJ-0mjSfZ8-Go"
+      src="src\assets\logosample.png"
       className="mr-3 h-6 sm:h-9"
       alt="Flowbite Logo"
     />
-    <span className="self-center whitespace-nowrap text-3xl font-semibold dark:text-white">
-      FullyFilmy
+    <span className="self-center whitespace-nowrap text-3xl font-sans dark:text-white">
+      Issac Asimov
     </span>
     
   </Navbar.Brand>
   <Navbar.Toggle />
   <Navbar.Collapse>
     
-  <Link to="/" className="text-xl">
+  <Link to="/" className="text-xl font-sans text-black hover:text-green-600 hover:underline">
       Home
       </Link>
-   <Link to="/wishlist" className="text-xl">
+   <Link to="/wishlist" className="text-xl font-sans text-black hover:text-green-600  hover:underline">
       Wishlist
       </Link>
-      <Link to="/shoppingcart" className="text-xl">
+      <Link to="/shoppingcart" className="text-xl font-sans text-black hover:text-green-600 hover:underline">
       Shopping Cart
       </Link>
-      <Link to="/checkout" className="text-xl">
+      <Link to="/checkout" className="text-xl font-sans text-black hover:text-green-600 hover:underline">
       Checkout
       </Link>
-    <Navbar.Link href="/navbars" className="text-xl">
+    <Navbar.Link href="/navbars" className="text-xl font-sans text-black hover:text-green-600 hover:underline">
       Track My Order
     </Navbar.Link>
    

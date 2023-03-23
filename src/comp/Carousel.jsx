@@ -1,8 +1,8 @@
-
+import image10 from "../assets/BANNER-TSHIRT.jpg"
 
 
 export default function Carousel(){
     return(
-        <img src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+        <img src="src\assets\BANNER-TSHIRT.jpg" className="py-3"></img>
     )
 }
