@@ -9,22 +9,22 @@ export default function Card2(){
             <div className="flex justify-center align-center "> 
       <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
-  <img src="src\assets\SIGMUND.jpg"></img> 
+  <img src="src\assets\SIGMUND.jpg" className="opacity-100 hover:opacity-80"></img> 
   </div> 
 </div> 
 <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
-  <img src="src\assets\antoine.jpg"></img> 
+  <img src="src\assets\antoine.jpg" className="opacity-100 hover:opacity-80"></img> 
   </div> 
 </div> 
 <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
-  <img src="src\assets\HERODETUS.jpg"></img>
+  <img src="src\assets\HERODETUS.jpg" className="opacity-100 hover:opacity-80"></img>
   </div>
 </div>
 <div className="m-2">
         <div className="max-w-sm m1-16">
-  <img src="src\assets\GEOFFERY.jpg"></img>
+  <img src="src\assets\GEOFFERY.jpg" className="opacity-100 hover:opacity-80"></img>
   </div>
 </div>
 

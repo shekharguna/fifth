@@ -11,13 +11,15 @@ import Wishlist from './page/wishlist'
 import Cart from './page/shoppingcart'
 import Checkout from './page/checkout'
 import Search from './comp/searchbar'
+import Bcaproduct from './page/bcaproduct'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className="bg-slate-50 bg-cover">
+    <div className=" bg-cover">
    <BrowserRouter>
    <Navbar1></Navbar1>
    <Search></Search>
@@ -33,6 +35,7 @@ function App() {
     
     <Route path="/checkout" element={<Checkout/>}></Route>
 
+    <Route path="/bcaproduct" element={<Bcaproduct/>}></Route>
    </Routes>
    </BrowserRouter>
    </div>
