@@ -14,6 +14,7 @@ import Search from './comp/searchbar'
 import Bcaproduct from './page/bcaproduct'
 
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,7 +38,9 @@ function App() {
 
     <Route path="/bcaproduct" element={<Bcaproduct/>}></Route>
    </Routes>
+  
    </BrowserRouter>
+  
    </div>
    </>
   )
