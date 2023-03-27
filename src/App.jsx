@@ -12,6 +12,7 @@ import Cart from './page/shoppingcart'
 import Checkout from './page/checkout'
 import Search from './comp/searchbar'
 import Bcaproduct from './page/bcaproduct'
+import Footer1 from './comp/Footer'
 
 
 function App() {
@@ -37,7 +38,9 @@ function App() {
 
     <Route path="/bcaproduct" element={<Bcaproduct/>}></Route>
    </Routes>
+   <Footer1></Footer1>
    </BrowserRouter>
+
    </div>
    </>
   )

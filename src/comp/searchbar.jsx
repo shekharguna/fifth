@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Search() {
     return (
-     <div className="pt-5 relative mx-auto text-gray-600 ">
+     <div className="pt-5 relative mx-auto text-gray-600 mb-5">
         <input className="border-5 border-gray-300 bg-white h-10 px-15 pr-16 pl-16 rounded-lg text-sm focus:outline-none w-196"
           type="search" name="search" placeholder="Search"/>  
         <button type="submit" className="absolute right-0 top-0 mt-5 mr-4">
