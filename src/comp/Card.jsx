@@ -19,17 +19,23 @@ export default function Card1(){
 
 <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
+        <Link to="/philosophy">
   <img src="src\assets\socrates.jpg" className="opacity-100 hover:opacity-80"></img> 
+  </Link>
   </div> 
 </div> 
 <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
+        <Link to="/music">
   <img src="src\assets\beethoven.jpg" className="opacity-100 hover:opacity-80"></img>
+  </Link>
   </div>
 </div>
 <div className="m-2">
         <div className="max-w-sm m1-16">
+        <Link to="/zoology">
   <img src="src\assets\ARISTOTLE.jpg" className="opacity-100 hover:opacity-80"></img>
+  </Link>
   </div>
 </div>
 

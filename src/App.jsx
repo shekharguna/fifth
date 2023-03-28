@@ -13,6 +13,13 @@ import Checkout from './page/checkout'
 import Search from './comp/searchbar'
 import Bcaproduct from './page/bcaproduct'
 import Footer1 from './comp/Footer'
+import Philosophy from './page/philosophy'
+import Music from './page/music'
+import Zoology from './page/zoology'
+import Psychology from './page/psychology'
+import Chemistry from './page/chemistry'
+import History from './page/history'
+import English from './page/english'
 
 
 function App() {
@@ -37,6 +44,20 @@ function App() {
     <Route path="/checkout" element={<Checkout/>}></Route>
 
     <Route path="/bcaproduct" element={<Bcaproduct/>}></Route>
+
+    <Route path="/philosophy" element={<Philosophy/>}></Route>
+
+    <Route path="/music" element={<Music/>}></Route>
+
+    <Route path="/zoology" element={<Zoology/>}></Route>
+
+    <Route path="/psychology" element={<Psychology/>}></Route>
+
+    <Route path="/chemistry" element={<Chemistry/>}></Route>
+
+    <Route path="/history" element={<History/>}></Route>
+
+    <Route path="/english" element={<English/>}></Route>
    </Routes>
    <Footer1></Footer1>
    </BrowserRouter>
