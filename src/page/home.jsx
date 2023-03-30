@@ -1,7 +1,12 @@
 import Carousel1 from "../comp/Carousel"
 import Card1 from "../comp/Card"
 import Card2 from "../comp/Card copy"
-import image17 from "../assets/BANNER-1.jpg"
+import Image16 from "../assets/popular.jpg"
+import Image17 from "../assets/tagline.jpg"
+import Image18 from "../assets/tshirtsq.jpg"
+import Image19 from "../assets/CASE.jpg"
+import Image20 from "../assets/hoodiessq.jpg"
+
 
 export default function Home(){
     return(
@@ -13,6 +18,13 @@ export default function Home(){
  
     
  
+   </div>
+   <img src="src\assets\tagline.jpg" className="py-3"></img>
+   <img src="src\assets\popular.jpg" className="py-3"></img>
+   <div className="grid grid-cols-3 gap-4 max-w-7xl">
+   <img src="src\assets\tshirtsq.jpg"></img>
+   <img src="src\assets\CASE.jpg"></img>
+   <img src="src\assets\hoodiessq.jpg"></img>
    </div>
    </>
     )
