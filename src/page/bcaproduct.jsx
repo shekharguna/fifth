@@ -3,6 +3,9 @@ import { Card } from "flowbite-react"
 
 export default function Bcaproduct(){
     return(
+      <>
+
+      <p class="text-left font-medium text-4xl text-gray-900 mb-6">Computer Science Super Store</p>
             <div className="grid grid-cols-4 gap-4">
                 
       <div className="m-2 hover:scale-105">
@@ -100,8 +103,10 @@ ManiRatnam * ARRahman
          </p>
        </Card>
      </div>
-</div>
-
-
+    </div>
+    <hr class="h-px my-8 bg-zinc-900 border-1 dark:bg-zinc-900"></hr>
+    <p class="align-middle mt-8 text-zinc-500 font-sans">Showing: 1-8 of 8 </p>
+    
+    </>
     )
 }

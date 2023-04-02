@@ -5,7 +5,8 @@ export default function Footer1() {
     return (
         <>
     
-<footer className="bg-gray-800 dark:bg-gray-900 mt-5">
+<footer className="bg-zinc-900  mt-10">
+
     <div className="mx-auto w-full container">
       <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
@@ -74,7 +75,8 @@ export default function Footer1() {
             </ul>
         </div>
     </div>
-    <div className="px-4 py-6 bg-gray-700 dark:bg-gray-800 md:flex md:items-center md:justify-between">
+    
+    <div className="px-4 py-6 border-2 border-zinc-700 bg-zinc-900 dark:bg-gray-700 md:flex md:items-center md:justify-between ">
         <span className="text-sm text-gray-100 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
@@ -101,6 +103,7 @@ export default function Footer1() {
         </div>
       </div>
     </div>
+    
 </footer>
 
         </>

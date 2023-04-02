@@ -27,6 +27,8 @@ function App() {
 
   return (
     <>
+    
+    <body class="2h-screen bg-white" >
     <div className=" bg-cover">
    <BrowserRouter>
    <Navbar1></Navbar1>
@@ -63,6 +65,7 @@ function App() {
    </BrowserRouter>
 
    </div>
+   </body>
    </>
   )
 }
