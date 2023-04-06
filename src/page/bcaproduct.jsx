@@ -14,9 +14,12 @@ export default function Bcaproduct(){
     <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
       Guru Poster
     </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-ManiRatnam * ARRahman
+    <p className="font-normal text-gray-800 dark:text-gray-400">
+Rs 399.0
     </p>
+    <button class="bg-gray-300 hover:bg-gray-500 text-gray-700 hover:text-white font-light text-base py-2 ml-14 px-4 w-1/2  rounded-full">
+ Add To Cart
+</button>
   </Card>
   </div>
 
@@ -26,9 +29,12 @@ ManiRatnam * ARRahman
     <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
       Roja Poster
     </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-ManiRatnam * ARRahman
+    <p className="font-normal text-gray-800 dark:text-gray-400">
+    Rs 399.0
     </p>
+    <button class="bg-gray-300 hover:bg-gray-500 text-gray-700 hover:text-white font-light text-base py-2 ml-14 px-4 w-1/2  rounded-full">
+ Add To Cart
+</button>
   </Card>
 
 </div>
