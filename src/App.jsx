@@ -20,6 +20,7 @@ import Psychology from './page/psychology'
 import Chemistry from './page/chemistry'
 import History from './page/history'
 import English from './page/english'
+import First from './bcaprodpages/first'
 
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
     <Route path="/history" element={<History/>}></Route>
 
     <Route path="/english" element={<English/>}></Route>
+
+    <Route path="/first" element={<First/>}></Route>
    </Routes>
    <Footer1></Footer1>
    </BrowserRouter>

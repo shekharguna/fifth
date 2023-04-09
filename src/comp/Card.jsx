@@ -10,7 +10,7 @@ export default function Card1(){
             <div className="flex justify-center align-center my-3"> 
            
       <div className="m-2"> 
-        <div className="max-w-sm m1-16"> 
+        <div className="max-w-sm m1-16 "> 
         <Link to="/bcaproduct">
   <img src="src\assets\BABBAGE.jpg" className="opacity-100 hover:opacity-80"></img> 
   </Link>
