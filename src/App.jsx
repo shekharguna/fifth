@@ -21,6 +21,7 @@ import Chemistry from './page/chemistry'
 import History from './page/history'
 import English from './page/english'
 import First from './bcaprodpages/first'
+import { CartProvider, useCart } from "react-use-cart";
 
 
 function App() {
@@ -41,12 +42,14 @@ function App() {
    
     <Route path="/wishlist" element={<Wishlist/>}></Route>
 
-    <Route path="/shoppingcart" element={<Cart/>}></Route>
+    <Route path="/shoppingcart" element={<CartProvider><Cart/></CartProvider>}></Route>
 
     
     <Route path="/checkout" element={<Checkout/>}></Route>
 
-    <Route path="/bcaproduct" element={<Bcaproduct/>}></Route>
+    <Route path="/bcaproduct" element={<CartProvider>
+      <Bcaproduct/>
+    </CartProvider>}></Route>
 
     <Route path="/philosophy" element={<Philosophy/>}></Route>
 
