@@ -7,6 +7,7 @@ import Image18 from "../assets/tshirtsq.jpg"
 import Image19 from "../assets/CASE.jpg"
 import Image20 from "../assets/hoodiessq.jpg"
 import Image21 from "../assets/tagline1.gif"
+import Breadcrumb from "../comp/breakcrumb"
 
 
 export default function Home(){
@@ -14,6 +15,7 @@ export default function Home(){
         <>
         <div>
     <Carousel1></Carousel1>
+    <Breadcrumb></Breadcrumb>
    <Card1></Card1>
    <Card2></Card2>
  

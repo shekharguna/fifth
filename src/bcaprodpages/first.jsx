@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Image32 from "../assets/description.png"
 import  Image33 from "../assets/eatsleepcode4.png"
+import Breadcrumb from '../comp/breakcrumb';
 
 const First = () => {
 
@@ -13,14 +14,19 @@ const First = () => {
 
 
     return (
+        <>
+    
        <div className="max-w-7xl mx-auto p-8">
+       
         <div className='flex flex-col justify-between lg:flex-row gap-16 lg:items-center'>
             <div className='flex flex-col gap-6 lg:w-2/4 overflow-hidden'>
                 <img src="src\assets\eatsleepcode4.png" alt="" className='w-full h-full aspect-square object-cover rounded-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'/>
                 
             </div>
+            
             {/* ABOUT */}
             <div className='flex flex-col gap-4 lg:w-2/4'>
+            
                 <div>
                     <span className=' text-green-600 font-semibold'>Special Sneaker</span>
                     <h1 className='text-3xl font-bold'>Nike Invincible 3</h1>
@@ -66,6 +72,7 @@ const First = () => {
         </div>
         <hr class="h-px my-8 bg-zinc-900 border-1 dark:bg-zinc-900"></hr>
         </div>
+        </>
     )
 }
 

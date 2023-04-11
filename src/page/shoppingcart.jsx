@@ -10,7 +10,7 @@ function Cart(){
                    
                     
                             <div className="flex md:flex-row flex-col justify-center " id="cart">
-                                <div className="lg:w-1/2 w-full  pr-50 md:pr-4 md:py-12 py-8 bg-white overflow-y-auto overflow-x-hidden grow h-46" id="scroll">
+                                <div className="lg:w-1/2 w-full  pr-50 md:pr-4 md:py-2 py-8 bg-white overflow-y-auto overflow-x-hidden grow h-46" id="scroll">
                                     <div className="flex items-center text-gray-500 hover:text-gray-600 cursor-pointer" onClick={() => setShow(!show)}>
                                         
                                         <p className="text-sm pl-2 leading-none">Back</p>
@@ -95,7 +95,7 @@ function Cart(){
                                         </div>
                                     </div>
                                 </div>
-                                <div className="xl:w-1/2 md:w-1/3 xl:w-1/4 w-full bg-gray-100 h-full">
+                                <div className="xl:w-1/2 md:w-1/3  w-full bg-gray-100 h-full">
                                     <div className="flex flex-col md:h-screen px-14 py-20 justify-between overflow-y-auto">
                                         <div>
                                             <p className="text-4xl font-black leading-9 text-gray-800">Summary</p>
